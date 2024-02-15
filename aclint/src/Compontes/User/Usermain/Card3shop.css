@@ -1,0 +1,38 @@
+.maincard3shopdiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px;
+    justify-content: space-around;
+}
+
+.div1cart3shop{
+    background-image: url("../MainUserImg/pexels-andrea-piacquadio-845434.jpg");
+    width: 50vh;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 10px #625360;
+}
+.div1cart3shop:hover{
+    filter: brightness(1.5);
+    filter:saturate(1.5);
+}
+.div1cart3shop h1{
+   margin-top: 180px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.div1cart3shop button{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    border: solid;
+    color:#de334d;
+    font-family: 'Ubuntu', sans-serif;
+}
+.div1cart3shop button:hover{
+color: white;
+background-color: #de334d;
+}

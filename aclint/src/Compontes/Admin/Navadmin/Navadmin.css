@@ -1,0 +1,98 @@
+.mainShopBox{
+
+}
+.MainNavAdmin{
+    position: fixed;
+    width: 100%;
+}
+.btnsvg{
+    fill: #1e1e1e;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: 20px;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+   
+}
+.btnsvg:hover{
+    box-shadow: 0px 1px 2px #625360;
+    fill:  white;
+    background-color: #de334d;
+    border-color: #de334d;
+   
+}
+.btnsvg:focus{
+    box-shadow: 0px 1px 2px #625360;
+    fill:  white;
+    background-color: #de334d;
+    border-color: #de334d;
+}
+.Shopbtnad{
+
+   font-family: 'Lato', sans-serif;
+   color:  #1e1e1e;
+   padding-left: 20px;
+   padding-right: 20px;
+   height: 30px;
+   margin-left: 10px;
+   border: solid;
+   border-color: white;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   background-color: transparent;
+}
+.Shopbtnad:hover{
+    box-shadow: 0px 1px 2px #625360;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid;
+    background-color: #de334d;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    border-color: #de334d;
+  
+ 
+}
+
+.Shopbtnad:focus{
+    box-shadow: 0px 1px 2px #625360;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid;
+    background-color: #de334d;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    border-color: #de334d;
+}
+.spanadNav{
+    color: #de334d;
+   
+}
+.avatharad:hover{
+    box-shadow: 0px 1px 2px #625360;
+    fill:  white;
+    background-color: #de334d;
+
+
+}
+.avatharad:focus{
+    box-shadow: 0px 1px 2px #625360;
+    background-color: #de334d;
+    border: solid;
+    
+
+}
+/* Nav */
+.LinkNavAd{
+    text-decoration: none;
+    color: #1e1e1e;
+  
+}

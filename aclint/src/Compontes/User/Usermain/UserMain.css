@@ -1,0 +1,159 @@
+.mainCarouselDivueser{
+    margin: 5px;
+    padding-top: 69px;
+   
+}
+.imgcarouser{
+width: 100%;
+height: 87.5vh;
+object-fit: cover;
+object-position: center ;
+
+}
+.MainuserShopbtn{
+    width: 100%;
+    height: 35px;
+    border: solid;
+    color:#de334d ;
+    border-color: rgb(145, 145, 145);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px #625360;
+}
+.MainuserShopbtn:hover{
+    width: 100%;
+    height: 35px;
+    border: solid;
+    color:white ;
+    background-color:#de334d;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 1s;
+    box-shadow: 0px 1px 10px #625360;
+}
+.pcarosul{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Best Seller User section */
+.bestsellermaindiv{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.collectionshopBtn{
+    margin: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0px 1px 3px #625360;
+}
+.btnbestsell{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    background-color: transparent;
+    letter-spacing: 1px;
+    color: #0b8894;
+}
+.btnbestsell:hover{
+    color: black;
+
+}
+.btnbestsell:focus{
+color: black;
+}
+
+/* Cart  CSS Start*/
+.MainCartbestseller{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4px;
+}
+.img1bestseller{
+    margin-bottom: 3px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+  
+}
+.img1bestseller:hover{
+    /* transform: scale(0.9); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.disbs{
+    border: solid;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-color: #9bb0b1;
+}
+.CardDivusermen{
+    text-align: left;
+    padding: 4px;
+    box-shadow: 0px 1px 3px  #0b8894;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.CardDivusermen:hover{
+    transform: scale(1.05);
+}
+.pPricebestseller{
+    margin-top: -16px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pspanbestseller{
+    font-weight: 400;
+    margin-left: 10px;
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: gray;
+}
+.pspanoffbestseller{
+    color: red;
+    font-weight: 400;
+}
+.discriptionbestselller{
+    margin-top: -10px;
+    color: gray;
+}
+.cardivbs{
+    margin-top: -10px;
+    margin-bottom: 10px;
+   
+  
+}
+.btnCart{
+    width: 100%;
+    background-color: white;
+     fill: #0b8894;
+    text-align: left;
+    padding-left: 40px;
+    border: solid;
+    border-color:  #0b8894;
+    color:  #0b8894;
+   
+   
+     
+}
+.btnCart:hover{
+background-color: #0b8894;
+fill: white;
+color: white;
+border-color:white;
+box-shadow: 1px 1px 2px  #919697;
+}
+.btnCart h6{
+   
+    margin-top: -20px;
+   margin-left: 24px;
+}
+

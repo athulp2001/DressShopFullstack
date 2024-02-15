@@ -1,0 +1,149 @@
+/* ProdListAd.css */
+
+.mainproductListAdDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+   
+}
+
+.mainDivProdListAd {
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    width: 300px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mainDivProdListAd:hover{
+    box-shadow: 0px 4px 6px #625360;
+}
+.ProdAdlistDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+h6, p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+
+h6, p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ProdAdlistMainImg {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover; 
+    background-position: center; 
+    width: 280px;
+    height: 200px;
+
+}
+.TestlistAdDiv{
+    padding: 20px;
+ }
+
+.submimgDivProdlisAd {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.imgSubProLisdiv {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.butonproaddiv {
+ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+
+
+.updatebtnptodlistAd{
+ text-decoration: none;
+ color: white;   
+}
+.LinkmainDivProdListAd{
+    text-decoration: none;
+    color: black;
+}
+.ProListBakBtn{
+
+    
+}
+.ProListBakBtn{
+    margin-top: 20px;
+    width: 80%;
+    font-family:  sans-serif;
+    background-color: #de334d;
+    border: solid;
+    border-radius: 20px;
+    margin-left: auto;
+    color: black;
+    z-index: -1000;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    font-weight: bold;
+    
+  }
+  .ProListBakBtn:hover{
+    background-color: #000000;
+    
+    transition: 1s;
+   
+  }
+  .LinkProAdLink{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+
+  .arrowBtnAdminMain{
+  font-weight: bold;
+  margin-left: 10px;
+  }
+  .deletebtnproAd{
+    padding: 5px;
+    background-color: rgb(211, 4, 4);
+    border: solid;
+    color: white;
+    border-radius: 5px; 
+    fill:white;  
+  }
+  .deletebtnproAd:hover{
+    background-color: white;
+    fill:rgb(211, 4, 4) ;
+    border-color:rgb(211, 4, 4) ;
+  }
+  .btnUpdateProdAd{
+    background-color: rgb(0, 106, 148);
+    border: solid;
+    color: white;
+    border-radius: 5px;
+    fill: white;
+  }
+ 
+  .btnUpdateProdAd:hover{
+    background-color: white;
+    fill: rgb(0, 106, 148) ;
+    border-color: rgb(0, 106, 148);
+  }
